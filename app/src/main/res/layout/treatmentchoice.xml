@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@drawable/border">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TableRow>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="16sp"
+                android:text="刺激波形：" />
+            <Spinner
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:entries="@array/stimulateWaveform" />
+        </TableRow>
+
+        <TableRow
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.2"
+                android:textSize="16sp"
+                android:text="平台时间"/>
+            <ImageButton
+                android:id="@+id/platformtime_up"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/plus" />
+            <TextView
+                android:id="@+id/platformtime_num"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.2"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="10 分钟" />
+            <ImageButton
+                android:id="@+id/platformtime_down"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/down"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.2"
+                android:textSize="16sp"
+                android:text="治疗时间" />
+            <ImageButton
+                android:id="@+id/treattime_up"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/plus" />
+            <TextView
+                android:id="@+id/treattime_num"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.2"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:gravity="center_horizontal"
+                android:text="30 分钟" />
+            <ImageButton
+                android:id="@+id/treattime_down"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/down"/>
+        </TableRow>
+
+        <TableRow
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.2"
+                android:textSize="16sp"
+                android:text="休息时间"/>
+            <ImageButton
+                android:id="@+id/resttime_up"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/plus" />
+            <TextView
+                android:id="@+id/resttime_num"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.2"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="10 分钟" />
+            <ImageButton
+                android:id="@+id/resttime_down"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/down"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.2"
+                android:textSize="16sp"
+                android:text="刺激频率"/>
+            <ImageButton
+                android:id="@+id/frequency_up"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/plus" />
+            <TextView
+                android:id="@+id/frequency_num"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.2"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="30 赫兹" />
+            <ImageButton
+                android:id="@+id/frequency_down"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/down"/>
+        </TableRow>
+
+        <TableRow
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.2"
+                android:textSize="16sp"
+                android:text="波升时间"/>
+            <ImageButton
+                android:id="@+id/risetime_up"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/plus" />
+            <TextView
+                android:id="@+id/risetime_num"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.2"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="10 秒" />
+            <ImageButton
+                android:id="@+id/risetime_down"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/down" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.2"
+                android:textSize="16sp"
+                android:text="刺激强度" />
+            <ImageButton
+                android:id="@+id/strength_up"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/plus" />
+            <TextView
+                android:id="@+id/strength_num"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.2"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="10 单位" />
+            <ImageButton
+                android:id="@+id/strength_down"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/down" />
+        </TableRow>
+
+        <TableRow
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" >
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.2"
+                android:textSize="16sp"
+                android:text="波降时间"/>
+            <ImageButton
+                android:id="@+id/falltime_up"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/plus" />
+            <TextView
+                android:id="@+id/falltime_num"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.2"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="10 秒" />
+            <ImageButton
+                android:id="@+id/falltime_down"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:layout_marginRight="20dp"
+                android:background="@drawable/down"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.2"
+                android:textSize="16sp"
+                android:text="脉冲宽度"/>
+            <ImageButton
+                android:id="@+id/pulsewidth_up"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/plus" />
+            <TextView
+                android:id="@+id/pulsewidth_num"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.2"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="100 微妙" />
+            <ImageButton
+                android:id="@+id/pulsewidth_down"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/down"/>
+        </TableRow>
+
+    </TableLayout>
+</LinearLayout>

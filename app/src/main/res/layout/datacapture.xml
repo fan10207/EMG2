@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/datacapture"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/border"
+    android:orientation="vertical">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.5">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="姓名" />
+
+            <TextView
+                android:id="@+id/PName"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:text="采集部位" />
+
+            <TextView
+                android:id="@+id/dataPosition"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1.5"
+                android:layout_height="match_parent"
+                android:text="采集时间" />
+
+            <TextView
+                android:id="@+id/captureDate"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/button_serial"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/frequency"/>
+            <Button
+                android:id="@+id/start_caculate"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/starticon"/>
+            <Button
+                android:id="@+id/stop_drawing"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/stoptran"/>
+
+            <Button
+                android:id="@+id/scan_bluetooth"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/devices_scan" />
+        <!--   <Button
+               android:id="@+id/button_setting"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content"
+               android:layout_weight="1"
+               android:background="@drawable/settings"/>-->
+
+        </TableRow>
+    </TableLayout>
+
+
+
+        <com.example.hp.muscle.helper.chart.ChartView
+            android:id="@+id/chartChannel1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:layout_marginLeft="5dp"/>
+
+        <com.example.hp.muscle.helper.chart.ChartView
+            android:id="@+id/chartChannel2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:layout_marginLeft="5dp"/>
+
+        <com.example.hp.muscle.helper.chart.ChartView
+            android:id="@+id/chartChannel3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:layout_marginLeft="5dp"/>
+
+        <com.example.hp.muscle.helper.chart.ChartView
+            android:id="@+id/chartChannel4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:layout_marginLeft="5dp"/>
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/left_fragment"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="0dp"
+    android:layout_marginEnd="0dp"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/fragment"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <RadioButton
+            android:id="@+id/patientInf"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:checked="true"
+            android:drawableTop="@drawable/doctor_icon"
+            android:gravity="center"
+            android:text="@string/leftfirstbutton"
+            android:textColor="@color/color_radiobutton" />
+
+
+        <RadioButton
+            android:id="@+id/Evaluation"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/heart_beat_icon"
+            android:gravity="center"
+            android:text="@string/myoelectricityevaluation"
+            android:textColor="@color/color_radiobutton" />
+
+        <RadioButton
+            android:id="@+id/myoelectrictyfeedback"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/medicineboxicon"
+            android:gravity="center"
+            android:textColor="@color/color_radiobutton"
+            android:text="@string/myoelectricityfeedback" />
+
+        <RadioButton
+            android:id="@+id/scheme"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/schemeicon"
+            android:gravity="center"
+            android:textColor="@color/color_radiobutton"
+            android:text="@string/scheme" />
+
+        <RadioButton
+            android:id="@+id/simulate"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/injectionicon"
+            android:gravity="center"
+            android:textColor="@color/color_radiobutton"
+            android:text="@string/stimulate" />
+        <RadioButton
+            android:id="@+id/parameter"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:button="@null"
+            android:drawableTop="@drawable/checklisticon"
+            android:gravity="center"
+            android:textColor="@color/color_radiobutton"
+            android:text="@string/parameter" />
+    </RadioGroup>
+
+</LinearLayout>

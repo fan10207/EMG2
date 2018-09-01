@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <RadioGroup
+        android:id="@+id/sym_choose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/brain"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:button="@null"
+            android:gravity="center"
+            android:text="脑卒中"
+            android:textColor="@color/color_radiobutton"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/neck"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:button="@null"
+            android:gravity="center"
+            android:text="颈椎病"
+            android:textColor="@color/color_radiobutton"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/waist"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:button="@null"
+            android:gravity="center"
+            android:text="下腰痛"
+            android:textColor="@color/color_radiobutton"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/diaphragm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/border"
+            android:button="@null"
+            android:gravity="center"
+            android:text="膈肌"
+            android:textColor="@color/color_radiobutton"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+    <ListView
+        android:id="@+id/symlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:choiceMode="singleChoice"
+        android:listSelector="@drawable/selector" >
+    </ListView>
+
+
+</LinearLayout>

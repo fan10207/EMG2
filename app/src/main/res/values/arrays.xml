@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="stimulateWaveform">
+        <item>单向波</item>
+        <item>双向波</item>
+    </string-array>
+
+    <string-array name="brain">
+        <item>股四头肌内侧头最大肌电值</item>
+        <item>股四头肌内侧头肌耐力</item>
+        <item>股四头肌内侧头肌痉挛测试</item>
+        <item>股四头肌外侧头最大肌电值</item>
+        <item>股四头肌外侧头肌耐力</item>
+        <item>股四头肌外侧头肌痉挛测试</item>
+        <item>股直肌最大肌电值</item>
+        <item>股直肌肌耐力</item>
+        <item>股直肌痉挛测试</item>
+        <item>股二头肌最大肌电值</item>
+        <item>股二头肌耐力</item>
+        <item>股二头肌痉挛测试</item>
+        <item>股二头肌/股四头肌内侧头共收缩比</item>
+        <item>股二头肌/肌直肌共收缩比</item>
+        <item>股二头肌/股四头肌外侧头共收缩比</item>
+        <item>胫前肌最大肌电值</item>
+        <item>胫前肌肌耐力</item>
+        <item>胫前肌痉挛测试</item>
+        <item>腓肠肌最大肌电值</item>
+        <item>腓肠肌肌耐力</item>
+        <item>腓肠肌痉挛测试</item>
+        <item>腓肠肌内侧头最大肌电值</item>
+        <item>腓肠肌内侧头肌耐力</item>
+        <item>腓肠肌内侧头痉挛测试</item>
+        <item>腓肠肌外侧头最大肌电值</item>
+        <item>腓肠肌外侧头肌耐力</item>
+        <item>腓肠肌外侧头痉挛测试</item>
+        <item>比目鱼肌最大肌电值</item>
+        <item>比目鱼肌肌耐力</item>
+        <item>比目鱼肌痉挛测试</item>
+        <item>胫前肌/腓肠肌共收缩比</item>
+        <item>腓肠肌/胫前肌共收缩比</item>
+        <item>胫前肌/比目鱼肌共收缩比</item>
+        <item>比目鱼肌/胫前肌共收缩比</item>
+        <item>肱二头肌最大肌电值</item>
+        <item>肱二头肌肌耐力</item>
+        <item>肱二头肌痉挛测试</item>
+        <item>肱三头肌最大肌电值</item>
+        <item>肱三头肌肌耐力</item>
+        <item>肱三头肌痉挛测试</item>
+        <item>肱二头肌/肱三头肌共收缩比</item>
+        <item>肱三头肌/肱二头肌共收缩比</item>
+        <item>口轮匝肌最大肌电值</item>
+        <item>口轮匝肌耐力</item>
+        <item>咬肌最大肌电值</item>
+        <item>咬肌耐力</item>
+        <item>吞咽障碍咽期肌肉最大肌电值测试</item>
+        <item>中枢性面瘫的最大肌电值测试</item>
+        <item>中枢性面瘫肌肉耐力测试</item>
+        <item>躯干肌的最大肌电值测试</item>
+        <item>躯干肌的肌耐力测试</item>
+    </string-array>
+
+    <string-array name="neck">
+        <item>颈部胸锁乳突肌最大肌电值测试</item>
+        <item>颈部胸锁乳突肌肌耐力测试</item>
+        <item>颈椎旁肌最大肌电值测试</item>
+        <item>颈部椎旁肌肌耐力测试</item>
+        <item>颈部肌肉协调性测试</item>
+        <item>屈曲放松试验</item>
+    </string-array>
+
+    <string-array name="waist">
+        <item>屈曲放松试验</item>
+        <item>BST(最大肌力评价）</item>
+        <item>BST(肌耐力评价）</item>
+    </string-array>
+
+    <string-array name="diaphragm">
+        <item>测试内容（一）</item>
+        <item>测试内容（二）</item>
+        <item>测试内容（三）</item>
+        <item>测试内容（四）</item>
+        <item>测试内容（五）</item>
+        <item>测试内容（六）</item>
+        <item>测试内容（七）</item>
+        <item>测试内容（八）</item>
+    </string-array>
+
+    <string-array name="brainpurpose">
+        <item>股四头肌内侧头肌力间接评价（最大肌电值）。</item>
+        <item>评估股四头肌内侧头肌耐力。</item>
+        <item>评估股四头肌内侧头肌痉挛。</item>
+        <item>股四头肌外侧头肌力间接评价（最大肌电值）。</item>
+        <item>评估股四头肌外侧头肌耐力。</item>
+        <item>评估股四头肌外侧头肌痉挛。</item>
+        <item>股直肌肌力间接评价（最大肌电值）。</item>
+        <item>评估股值肌耐力。</item>
+        <item>评估股直肌痉挛。</item>
+        <item>股二头肌肌力间接评价（最大肌电值）。</item>
+        <item>评估股二头肌耐力。</item>
+        <item>评估股二头肌痉挛。</item>
+        <item>肌肉协调性。</item>
+        <item>肌肉协调性。</item>
+        <item>肌肉协调性。</item>
+        <item>胫前肌肌力间接评价（最大肌电值）。</item>
+        <item>评估胫前肌肌耐力。</item>
+        <item>评估胫前肌痉挛。</item>
+        <item>腓肠肌肌力间接评价（最大肌电值）。</item>
+        <item>评估腓肠肌耐力。</item>
+        <item>评估腓肠肌痉挛。</item>
+        <item>腓肠肌内侧头肌力间接评价（最大肌电值）。</item>
+        <item>评估腓肠肌内侧头肌耐力。</item>
+        <item>评估腓肠肌内侧头痉挛。</item>
+        <item>腓肠肌外侧头肌力间接评价（最大肌电值）。</item>
+        <item>评估腓肠肌外侧头肌耐力。</item>
+        <item>评估腓肠肌外侧头痉挛。</item>
+        <item>比目鱼肌肌力间接评价（最大肌电值）。</item>
+        <item>评估比目鱼肌耐力。</item>
+        <item>评估比目鱼肌痉挛。</item>
+        <item>肌肉协调性。</item>
+        <item>肌肉协调性。</item>
+        <item>肌肉协调性。</item>
+        <item>肌肉协调性。</item>
+        <item>肱二头肌肌力间接评价（最大肌电值）。</item>
+        <item>评估肱二头肌肌耐力。</item>
+        <item>评估肱二头肌痉挛。</item>
+        <item>肱三头肌肌力间接评价（最大肌电值）。</item>
+        <item>评估肱三头肌肌耐力。</item>
+        <item>评估肱三头肌痉挛。</item>
+        <item>肌肉协调性。</item>
+        <item>肌肉协调性。</item>
+        <item>口轮匝肌肌力间接评价（最大肌电值）。</item>
+        <item>评估口轮匝肌肌耐力。</item>
+        <item>咬肌肌力间接评价（最大肌电值）。</item>
+        <item>评估咬肌肌耐力。</item>
+        <item>颏下肌群和舌骨下肌群肌力间接评价（最大肌电值）。</item>
+        <item>口轮匝肌肌力间接评价（最大肌电值）。</item>
+        <item>评估口轮匝肌肌耐力。</item>
+        <item>躯干肌（竖脊肌和多裂肌）肌力间接评价（最大肌电值）。</item>
+        <item>评估躯干肌（竖脊肌和多裂肌）肌耐力。</item>
+    </string-array>
+
+    <string-array name="neckpurpose">
+        <item>胸锁乳突肌肌力间接评价（最大肌电值）。</item>
+        <item>评价胸锁乳突肌肌耐力。</item>
+        <item>C4颈椎旁肌最大肌电值（间接放映肌力）。</item>
+        <item>C4颈椎旁肌肌耐力。</item>
+        <item>肌肉协调性（C4椎旁肌/胸锁乳突肌）。</item>
+        <item>颈伸肌舒张能力。</item>
+    </string-array>
+
+    <string-array name="waistpurpose">
+        <item>腰部肌肉舒张能力。</item>
+        <item>腰背肌肌力间接评价（最大肌电值）。</item>
+        <item>腰背肌肌耐力。</item>
+    </string-array>
+
+    <string-array name="diaphragmpurpose">
+        <item>测试目的（一）</item>
+        <item>测试目的（二）</item>
+        <item>测试目的（三）</item>
+        <item>测试目的（四）</item>
+        <item>测试目的（五）</item>
+        <item>测试目的（六）</item>
+        <item>测试目的（七）</item>
+        <item>测试目的（八）</item>
+    </string-array>
+
+    <string-array name="brainindex">
+        <item>最大肌电值。（AEMG、RMS)</item>
+        <item>肌肉疲劳：中为频率均值（MF）、平均功率频率均值（MPF)、中位频率斜率（MFs)、平均功率频率斜率（MPFs)。</item>
+        <item>肌电值（AEMG、RMS)。</item>
+        <item>最大肌电值（AEMG、RMS)。</item>
+        <item>肌肉疲劳：中为频率均值（MF）、平均功率频率均值（MPF)、中位频率斜率（MFs)、平均功率频率斜率（MPFs)。</item>
+        <item>肌电值（AEMG、RMS)。</item>
+        <item>最大肌电值（AEMG、RMS)。</item>
+        <item>肌肉疲劳：中为频率均值（MF）、平均功率频率均值（MPF)、中位频率斜率（MFs)、平均功率频率斜率（MPFs)。</item>
+        <item>肌电值（AEMG、RMS)。</item>
+        <item>最大肌电值（AEMG、RMS)。</item>
+        <item>肌肉疲劳：中为频率均值（MF）、平均功率频率均值（MPF)、中位频率斜率（MFs)、平均功率频率斜率（MPFs)。</item>
+        <item>肌电值（AEMG、RMS)。</item>
+        <item>共收缩比值（CCR):拮抗肌AEMG/(拮抗肌AEMG+主动肌AEMG)。</item>
+        <item>共收缩比值（CCR):拮抗肌AEMG/(拮抗肌AEMG+主动肌AEMG)。</item>
+        <item>共收缩比值（CCR):拮抗肌AEMG/(拮抗肌AEMG+主动肌AEMG)。</item>
+        <item>最大肌电值（AEMG、RMS)。</item>
+        <item>肌肉疲劳：中为频率均值（MF）、平均功率频率均值（MPF)、中位频率斜率（MFs)、平均功率频率斜率（MPFs)。</item>
+        <item>肌电值（AEMG、RMS)。</item>
+        <item>最大肌电值（AEMG、RMS)。</item>
+        <item>肌肉疲劳：中为频率均值（MF）、平均功率频率均值（MPF)、中位频率斜率（MFs)、平均功率频率斜率（MPFs)。</item>
+        <item>肌电值（AEMG、RMS)。</item>
+        <item>最大肌电值（AEMG、RMS)</item>
+        <item>肌肉疲劳：中为频率均值（MF）、平均功率频率均值（MPF)、中位频率斜率（MFs)、平均功率频率斜率（MPFs)。</item>
+        <item>肌电值（AEMG、RMS)。</item>
+        <item>最大肌电值（AEMG、RMS)。</item>
+        <item>肌肉疲劳：中为频率均值（MF）、平均功率频率均值（MPF)、中位频率斜率（MFs)、平均功率频率斜率（MPFs)。</item>
+        <item>肌电值（AEMG、RMS)。</item>
+        <item>最大肌电值（AEMG、RMS)。</item>
+        <item>肌肉疲劳：中为频率均值（MF）、平均功率频率均值（MPF)、中位频率斜率（MFs)、平均功率频率斜率（MPFs)。</item>
+        <item>肌电值（AEMG、RMS)。</item>
+        <item>共收缩比值（CCR):拮抗肌AEMG/(拮抗肌AEMG+主动肌AEMG)。</item>
+        <item>共收缩比值（CCR):拮抗肌AEMG/(拮抗肌AEMG+主动肌AEMG)。</item>
+        <item>共收缩比值（CCR):拮抗肌AEMG/(拮抗肌AEMG+主动肌AEMG)。</item>
+        <item>共收缩比值（CCR):拮抗肌AEMG/(拮抗肌AEMG+主动肌AEMG)。</item>
+        <item>最大肌电值（AEMG、RMS)。</item>
+        <item>肌肉疲劳：中为频率均值（MF）、平均功率频率均值（MPF)、中位频率斜率（MFs)、平均功率频率斜率（MPFs)。</item>
+        <item>肌电值（AEMG、RMS)。</item>
+        <item>最大肌电值（AEMG、RMS)。</item>
+        <item>肌肉疲劳：中为频率均值（MF）、平均功率频率均值（MPF)、中位频率斜率（MFs)、平均功率频率斜率（MPFs)。</item>
+        <item>最大肌电值（AEMG、RMS)。</item>
+        <item>共收缩比值（CCR):拮抗肌AEMG/(拮抗肌AEMG+主动肌AEMG)。</item>
+        <item>共收缩比值（CCR):拮抗肌AEMG/(拮抗肌AEMG+主动肌AEMG)。</item>
+        <item>最大肌电值（AEMG、RMS)。</item>
+        <item>肌肉疲劳：中为频率均值（MF）、平均功率频率均值（MPF)、中位频率斜率（MFs)、平均功率频率斜率（MPFs)。</item>
+        <item>最大肌电值（AEMG、RMS)。</item>
+        <item>肌肉疲劳：中为频率均值（MF）、平均功率频率均值（MPF)、中位频率斜率（MFs)、平均功率频率斜率（MPFs)</item>
+        <item>最大肌电值（AEMG、RMS)。</item>
+        <item>最大肌电值（AEMG、RMS)。</item>
+        <item>肌肉疲劳：中为频率均值（MF）、平均功率频率均值（MPF)、中位频率斜率（MFs)、平均功率频率斜率（MPFs)。</item>
+        <item>最大肌电值（AEMG、RMS)。</item>
+        <item>肌肉疲劳：中为频率均值（MF）、平均功率频率均值（MPF)、中位频率斜率（MFs)、平均功率频率斜率（MPFs)。</item>
+    </string-array>
+
+    <string-array name="neckindex">
+        <item>最大肌电值（AEMG、RMS)。</item>
+        <item>肌肉疲劳：中为频率均值（MF）、平均功率频率均值（MPF)、中位频率斜率（MFs)、平均功率频率斜率（MPFs)。</item>
+        <item>最大肌电值（AEMG、RMS)。</item>
+        <item>肌肉疲劳：中为频率均值（MF）、平均功率频率均值（MPF)、中位频率斜率（MFs)、平均功率频率斜率（MPFs)。</item>
+        <item>AEMG共收缩比值（CCR)。</item>
+        <item>肌电值（AEMG、RMS)。</item>
+    </string-array>
+
+    <string-array name="waistindex">
+        <item>肌电值（AEMG、RMS)。</item>
+        <item>最大肌电值（AEMG、RMS)。</item>
+        <item>肌肉疲劳：中为频率均值（MF）、平均功率频率均值（MPF)、中位频率斜率（MFs)、平均功率频率斜率（MPFs)。</item>
+    </string-array>
+
+    <string-array name="diaphragmindex">
+        <item>测试指标（一）</item>
+        <item>测试指标（二）</item>
+        <item>测试指标（三）</item>
+        <item>测试指标（四）</item>
+        <item>测试指标（五）</item>
+        <item>测试指标（六）</item>
+        <item>测试指标（七）</item>
+        <item>测试指标（八）</item>
+    </string-array>
+
+    <string-array name="brainmethod">
+        <item>嘱受试者仰卧于治疗床上进行股四头肌最大随意等长收缩保持3-5s。</item>
+        <item>嘱受试者仰卧于治疗床上进行股四头肌最大随意等长收缩保持30s以上。</item>
+        <item>嘱受试者仰卧于治疗床上,放松股四头肌，进行被动牵伸。</item>
+        <item>嘱受试者仰卧于治疗床上进行股四头肌最大随意等长收缩保持3-5s。</item>
+        <item>嘱受试者仰卧于治疗床上进行股四头肌最大随意等长收缩保持30s以上。</item>
+        <item>嘱受试者仰卧于治疗床上,放松股四头肌，进行被动牵伸。</item>
+        <item>嘱受试者仰卧于治疗床上进行股四头肌最大随意等长收缩保持3-5s。</item>
+        <item>嘱受试者仰卧于治疗床上进行股四头肌最大随意等长收缩保持30s以上。</item>
+        <item>嘱受试者仰卧于治疗床上,放松股四头肌，进行被动牵伸。</item>
+        <item>患者俯卧于治疗床上神髋屈膝进行股二头肌最大等长收缩3-5s，检查者予以裸关节抗阻。</item>
+        <item>患者俯卧于治疗床上神髋屈膝进行股二头肌最大等长收缩30s以上，检查者予以裸关节抗阻。</item>
+        <item>嘱受试者仰卧于治疗床上,放松股四头肌，进行被动牵伸。</item>
+        <item>嘱受试者仰卧于治疗床上进行股四头肌最大随意等长收缩保持3-5s。</item>
+        <item>嘱受试者仰卧于治疗床上进行股四头肌最大随意等长收缩保持3-5s。</item>
+        <item>嘱受试者仰卧于治疗床上进行股四头肌最大随意等长收缩保持3-5s。</item>
+        <item>嘱受试者仰卧于治疗床上进行胫前肌最大随意等长收缩（内翻背屈）保持3-5s。</item>
+        <item>嘱受试者仰卧于治疗床上进行胫前肌最大随意等长收缩（内翻背屈）保持30s以上。</item>
+        <item>嘱受试者仰卧于治疗床上,放松股四头肌，进行被动牵伸。</item>
+        <item>嘱受试者仰卧于治疗床上进行胫前肌最大随意等长收缩（踝跖屈）保持3-5s。</item>
+        <item>嘱受试者仰卧于治疗床上进行胫前肌最大随意等长收缩（踝跖屈）保持30s以上。</item>
+        <item>嘱受试者仰卧于治疗床上,放松腓肠肌，进行被动牵伸。</item>
+        <item>嘱受试者仰卧于治疗床上进行腓肠肌最大随意等长收缩（踝跖屈）保持3-5s。</item>
+        <item>嘱受试者仰卧于治疗床上进行腓肠肌最大随意等长收缩（踝跖屈）保持30s以上。</item>
+        <item>嘱受试者仰卧于治疗床上,放松腓肠肌，进行被动牵伸。</item>
+        <item>嘱受试者仰卧于治疗床上进行腓肠肌最大随意等长收缩（踝跖屈）保持3-5s。</item>
+        <item>嘱受试者仰卧于治疗床上进行腓肠肌最大随意等长收缩（踝跖屈）保持30s以上。</item>
+        <item>嘱受试者仰卧于治疗床上,放松腓肠肌，进行被动牵伸。</item>
+        <item>嘱受试者仰卧于治疗床进行比目鱼肌最大随意等长收缩（踝跖屈）保持3-5s。</item>
+        <item>嘱受试者仰卧于治疗床进行比目鱼肌最大随意等长收缩（踝跖屈）保持30s以上。</item>
+        <item>嘱受试者仰卧于治疗床上,放松比目鱼肌，进行被动牵伸。</item>
+        <item>嘱受试者仰卧于治疗床进行腓肠肌最大随意等长收缩（踝跖屈）保持3-5s。</item>
+        <item>嘱受试者仰卧于治疗床进行胫前肌最大随意等长收缩（内翻背屈）保持3-5s。</item>
+        <item>嘱受试者仰卧于治疗床进行比目鱼肌最大随意等长收缩（踝跖屈）保持3-5s。</item>
+        <item>嘱受试者仰卧于治疗床进行胫前肌最大随意等长收缩（内翻背屈）保持3-5s。</item>
+        <item>嘱受试者仰卧于治疗床进行肱二头肌最大随意等长收缩保持3-5s，以肘关节为支点，检查者予以前臂抗阻。</item>
+        <item>嘱受试者仰卧于治疗床进行肱二头肌最大随意等长收缩保持30s以上，以肘关节为支点，检查者予以前臂抗阻。</item>
+        <item>嘱受试者仰卧于治疗床上，放松肱二头肌，进行被动牵伸。</item>
+        <item>嘱受试者仰卧于治疗床进行肱三头肌最大随意等长收缩保持3-5s，以肘关节为支点，前臂压床。</item>
+        <item>嘱受试者仰卧于治疗床进行肱三头肌最大随意等长收缩保持30s以上，以肘关节为支点，前臂压床。）</item>
+        <item>嘱受试者仰卧于治疗床上，放松肱三头肌，进行被动牵伸。</item>
+        <item>嘱受试者仰卧于治疗床进行肱三头肌最大随意等长收缩保持3-5s，肘关节为支点，前臂压床。</item>
+        <item>嘱受试者仰卧于治疗床进行肱二头肌最大随意等长收缩保持3-5s，肘关节为支点，检查者予以前臂抗阻。</item>
+        <item>嘱受试者闭紧嘴唇，做口轮匝肌的最大随意等长收缩3-5s。</item>
+        <item>嘱受试者闭紧嘴唇，做口轮匝肌的最大随意等长收缩30s以上。</item>
+        <item>咬牙，做咬肌最大随意等长收缩3-5s。</item>
+        <item>咬牙，做咬肌最大随意等长收缩30s以上。</item>
+        <item>1、嘱患者做吞口水动作，做最大吞咽动作，做三次，取其最大值 2、嘱患者饮水12ml，于口腔内，做最大吞咽动作，做三次，取其最大。</item>
+        <item>嘱受试者闭紧嘴唇，做口轮匝肌的最大随意等长收缩3-5s。</item>
+        <item>嘱受试者闭紧嘴唇，做口轮匝肌的最大随意等长收缩30s以上。</item>
+        <item>嘱受试者俯卧，做竖脊肌和多裂肌的最大随意等长收缩3-5s。</item>
+        <item>嘱受试者俯卧，做竖脊肌和多裂肌的最大随意等长收缩30s以上。</item>
+    </string-array>
+
+    <string-array name="neckmethod">
+        <item>患者仰卧于治疗床，颈部前屈持续3-5s。</item>
+        <item>患者仰卧于治疗床，颈部前屈持续30s以上。</item>
+        <item>患者俯卧于颈部后伸：悬挂2.5kg重物，持续3-5s。</item>
+        <item>患者俯卧于颈部后伸：悬挂2.5kg重物，持续30s以上。</item>
+        <item>患者俯卧于治疗床，做头压床试验，持续时间3s以上。</item>
+        <item>1、矢状面3s内均速前屈至最大位置  2、在矢状面在最大屈曲位停留3s   3、矢状面3s匀速背伸回复至中立位。</item>
+    </string-array>
+
+    <string-array name="waistmethod">
+        <item>1、站立3s  2、匀速向前向下弯腰3s  3、在弯腰最大角度处维持3s  4、3s匀速伸直  5、回复站立位3s。</item>
+        <item>俯卧于床上，下半身固定在床上，双手交叉于胸前抓住对侧肩部，上半身探出床外悬空保持与地面平行，持续3-5s。</item>
+        <item>俯卧于床上，下半身固定在床上，双手交叉于胸前抓住对侧肩部，上半身探出床外悬空保持与地面平行，持续30s以上。</item>
+    </string-array>
+
+    <string-array name="diaphragmmethod">
+        <item>测试指标（一）</item>
+        <item>测试指标（二）</item>
+        <item>测试指标（三）</item>
+        <item>测试指标（四）</item>
+        <item>测试指标（五）</item>
+        <item>测试指标（六）</item>
+        <item>测试指标（七）</item>
+        <item>测试指标（八）</item>
+    </string-array>
+
+    <string-array name="brainposition">
+        <item>髌骨上缘2cm,电极间与股骨头呈55°角，电极间距2cm，沿肌纤维走行。</item>
+        <item>髌骨上缘2cm,电极间与股骨头呈55°角，电极间距2cm，沿肌纤维走行。</item>
+        <item>髌骨上缘2cm,电极间与股骨头呈55°角，电极间距2cm，沿肌纤维走行。</item>
+        <item>髌骨上3-5cm，与股骨呈一定角度，电极间距2cm，沿肌纤维走行。</item>
+        <item>髌骨上3-5cm，与股骨呈一定角度，电极间距2cm，沿肌纤维走行。</item>
+        <item>髌骨上3-5cm，与股骨呈一定角度，电极间距2cm，沿肌纤维走行。</item>
+        <item>髂骨与膝关节中点，两电极间距2cm,沿肌纤维走行。</item>
+        <item>髂骨与膝关节中点，两电极间距2cm,沿肌纤维走行。</item>
+        <item>髂骨与膝关节中点，两电极间距2cm,沿肌纤维走行。</item>
+        <item>后大腿中线偏外侧，臂沟至膝关节中点，电极间距2cm，沿肌纤维走行。</item>
+        <item>后大腿中线偏外侧，臂沟至膝关节中点，电极间距2cm，沿肌纤维走行。</item>
+        <item>后大腿中线偏外侧，臂沟至膝关节中点，电极间距2cm，沿肌纤维走行。</item>
+        <item>1、后大腿中线偏外侧，臂沟至膝关节中点，电子间距2cm,沿肌纤维走行 2、髌骨上缘2cm，电极间与股骨头呈55°角，电极间距2cm，沿肌纤维走行。</item>
+        <item>1、后大腿中线偏外侧，臂沟至膝关节中点，电子间距2cm,沿肌纤维走行 2、髌骨上缘2cm，电极间与股骨头呈55°角，电极间距2cm，沿肌纤维走行。</item>
+        <item>1、后大腿中线偏外侧，臂沟至膝关节中点，电子间距2cm,沿肌纤维走行 2、髌骨上3-5cm，与股骨呈一定角度，电极间距。</item>
+        <item>膝关节与裸关节1/4-1/3之间，胫骨旁开，电极间距2cm，沿肌纤维走行。</item>
+        <item>膝关节与裸关节1/4-1/3之间，胫骨旁开，电极间距2cm，沿肌纤维走行。</item>
+        <item>膝关节与裸关节1/4-1/3之间，胫骨旁开，电极间距2cm，沿肌纤维走行。</item>
+        <item>膝关节远端，腓肠肌内外侧头肌腹处各一电极。</item>
+        <item>膝关节远端，腓肠肌内外侧头肌腹处各一电极。</item>
+        <item>膝关节远端，腓肠肌内外侧头肌腹处各一电极。</item>
+        <item>膝关节远端，中线旁开内侧2cm，电极间距2cm，沿肌纤维走行。</item>
+        <item>膝关节远端，中线旁开内侧2cm，电极间距2cm，沿肌纤维走行。</item>
+        <item>膝关节远端，中线旁开内侧2cm，电极间距2cm，沿肌纤维走行。</item>
+        <item>膝关节远端，中线旁开内侧2cm，电极间距2cm，沿肌纤维走行。</item>
+        <item>膝关节远端，中线旁开内侧2cm，电极间距2cm，沿肌纤维走行。</item>
+        <item>膝关节远端，中线旁开内侧2cm，电极间距2cm，沿肌纤维走行。</item>
+        <item>腓肠肌肌腹下，电极间距2cm，沿肌纤维走行。</item>
+        <item>腓肠肌肌腹下，电极间距2cm，沿肌纤维走行。</item>
+        <item>腓肠肌肌腹下，电极间距2cm，沿肌纤维走行。</item>
+        <item>1、膝关节与踝关节1/4-1/3之间，胫骨旁开，电极间距2cm，沿肌纤维走行  2、膝关节远端，腓肠肌内外侧头肌腹处各一电极。</item>
+        <item>1、膝关节与踝关节1/4-1/3之间，胫骨旁开，电极间距2cm，沿肌纤维走行  2、膝关节远端，腓肠肌内外侧头肌腹处各一电极。</item>
+        <item>1、膝关节与踝关节1/4-1/3之间，胫骨旁开，电极间距2cm，沿肌纤维走行  2、腓肠肌肌腹下，电极间距2cm，沿肌纤维走行。</item>
+        <item>1、膝关节与踝关节1/4-1/3之间，胫骨旁开，电极间距2cm，沿肌纤维走行  2、腓肠肌肌腹下，电极间距2cm，沿肌纤维走行。</item>
+        <item>肌腹，两电极间距2cm沿着肌纤维走行。</item>
+        <item>肌腹，两电极间距2cm沿着肌纤维走行。</item>
+        <item>肌腹，两电极间距2cm沿着肌纤维走行。</item>
+        <item>肩峰与肘关节中心，上臂中心旁开2cm，沿着肌纤维走行，两电极间距2cm。</item>
+        <item>肩峰与肘关节中心，上臂中心旁开2cm，沿着肌纤维走行，两电极间距2cm。</item>
+        <item>肩峰与肘关节中心，上臂中心旁开2cm，沿着肌纤维走行，两电极间距2cm。</item>
+        <item>1、肌腹，两电极间距2cm沿着肌纤维走行。  2、肩峰与肘关节中心，上臂中心旁开2cm，沿着肌纤维走行，两电极间距2cm。</item>
+        <item>1、肌腹，两电极间距2cm沿着肌纤维走行。  2、肩峰与肘关节中心，上臂中心旁开2cm，沿着肌纤维走行，两电极间距2cm。</item>
+        <item>记录电极贴于口轮匝肌肌腹，与肌肉走向一致，记录电极中心距2cm，参考电极贴于记录电极旁开3cm。</item>
+        <item>记录电极贴于口轮匝肌肌腹，与肌肉走向一致，记录电极中心距2cm，参考电极贴于记录电极旁开3cm。</item>
+        <item>记录电极贴于咬肌肌腹，与肌肉走向一致，记录电极中心距2cm，参考电极贴于记录电极旁开3cm。</item>
+        <item>记录电极贴于咬肌肌腹，与肌肉走向一致，记录电极中心距2cm，参考电极贴于记录电极旁开3cm。</item>
+        <item>1、记录电极贴于二腹肌肌腹，与肌肉走向一致，记录电极中心距2cm，参考点击贴于记录电极旁开3cm；2、记录电极贴于甲状。</item>
+        <item>记录电极贴于口轮匝肌肌腹，与肌肉走向一致，记录电极中心距2cm，参考电极贴于记录电极旁开3cm。</item>
+        <item>记录电极贴于咬肌肌腹，与肌肉走向一致，记录电极中心距2cm，参考电极贴于记录电极旁开3cm。</item>
+        <item>1、脊柱轻度前屈，两手自然置于两侧，平T3位置，脊柱正中旁开2cm，两电极间距2cm，沿着肌纤维走行  2、L5-S1旁开2cm。</item>
+        <item>1、脊柱轻度前屈，两手自然置于两侧，平T3位置，脊柱正中旁开2cm，两电极间距2cm，沿着肌纤维走行  2、L5-S1旁开3cm。</item>
+    </string-array>
+
+    <string-array name="neckposition">
+        <item>乳突与胸骨切迹中点，两电极间距2cm，沿着肌纤维走行。</item>
+        <item>乳突与胸骨切迹中点，两电极间距2cm，沿着肌纤维走行。</item>
+        <item>C4后正中线旁开2cm。两电极间距2cm，沿着肌纤维走行。</item>
+        <item>C4后正中线旁开2cm。两电极间距2cm，沿着肌纤维走行。</item>
+        <item>1、乳突与胸骨切迹中点，两电极间距2cm，沿着肌纤维走行  2、C4后正中线旁开2cm，两电极间距2cm，沿着肌纤维走行。</item>
+        <item>C4后正中线旁开2cm。两电极间距2cm，沿着肌纤维走行。</item>
+    </string-array>
+
+    <string-array name="waistposition">
+        <item>1、脊柱轻度前屈，两手自然置于两侧，平T3位置，脊柱正中旁开2cm，两电极间距2cm，沿着肌纤维走行  2、L5-S1旁开2cm。</item>
+        <item>1、脊柱轻度前屈，两手自然置于两侧，平T3位置，脊柱正中旁开2cm，两电极间距2cm，沿着肌纤维走行  2、L5-S1旁开2cm。</item>
+        <item>1、脊柱轻度前屈，两手自然置于两侧，平T3位置，脊柱正中旁开2cm，两电极间距2cm，沿着肌纤维走行  2、L5-S1旁开2cm。</item>
+    </string-array>
+
+    <string-array name="diaphragmposition">
+        <item>测试指标（一）</item>
+        <item>测试指标（二）</item>
+        <item>测试指标（三）</item>
+        <item>测试指标（四）</item>
+        <item>测试指标（五）</item>
+        <item>测试指标（六）</item>
+        <item>测试指标（七）</item>
+        <item>测试指标（八）</item>
+    </string-array>
+
+</resources>

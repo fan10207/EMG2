@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/right_fragment"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="horizontal" >
+    <!-- LinearLayout中layout_height="match_parent"时会出现当点击最后TableLayout布局里面的控件，
+         会把这个TableLayout布局里面的部分控件被清空 -->
+    <TableRow>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1.2"
+            android:layout_height="250dp"
+            android:orientation="vertical"
+            android:background="@drawable/border" >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="患者信息"
+                android:textSize="30sp"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TableRow
+                    android:gravity="center" >
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:textSize="20sp"
+                        android:text="病历号"/>
+                    <EditText
+                        android:id="@+id/edit_patientAccount"
+                        android:layout_height="match_parent" />
+                </TableRow>
+
+                <TableRow
+                    android:gravity="center" >
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:text="姓名"/>
+                    <EditText
+                        android:id="@+id/edit_patientName"
+                        android:layout_height="match_parent" />
+                </TableRow>
+
+                <TableRow
+                    android:gravity="center">
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:textSize="20sp"
+                        android:gravity="center"
+                        android:text="性别"/>
+                    <EditText
+                        android:id="@+id/edit_sex"
+                        android:layout_height="match_parent" />
+                </TableRow>
+
+                <TableRow
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:layout_height="match_parent" >
+                    <Button
+                        android:id="@+id/button_query"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="查询"
+                        android:textSize="25sp"/>
+                    <Button
+                        android:id="@+id/button_clear"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="清除"
+                        android:textSize="25sp"/>
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+        <!-- TableLayout中layout_height="match_parent"时会出现当点击最后TableLayout布局里面的控件，
+             会把这个TableLayout布局里面的控件被清空 -->
+        <TableLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2" >
+
+            <TableRow>
+
+                <include layout="@layout/startfuction"
+                    android:layout_width="0dp"
+                    android:layout_height="250dp"
+                    android:layout_weight="1"/>
+
+                <include layout="@layout/chanel"
+                    android:layout_width="0dp"
+                    android:layout_height="240dp"
+                    android:layout_weight="1"/>
+
+            </TableRow>
+        </TableLayout>
+    </TableRow>
+
+</TableLayout>
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1.2">
+
+    <TableRow>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="350dp"
+            android:background="@drawable/border">
+
+            <include layout="@layout/symptom" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="350dp"
+            android:background="@drawable/border">
+
+            <include layout="@layout/bodydemo" />
+        </LinearLayout>
+    </TableRow>
+</TableLayout>
+
+</LinearLayout>
+
+
+
+
+
+

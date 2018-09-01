@@ -1,0 +1,15 @@
+Executable : D:\STUDY\Android\ndk-bundle\ndk-build.cmd
+arguments : 
+NDK_PROJECT_PATH=null
+APP_BUILD_SCRIPT=C:\Users\hp\Desktop\MainMenu\Android.mk
+APP_ABI=armeabi
+NDK_ALL_ABIS=armeabi
+NDEBUG=0
+APP_PLATFORM=android-17
+NDK_OUT=C:/Users/hp/Desktop/EMG(2016.12.7)/app/build/intermediates/ndkBuild/release/obj
+NDK_LIBS_OUT=C:\Users\hp\Desktop\EMG(2016.12.7)\app\build\intermediates\ndkBuild\release\lib
+APP_SHORT_COMMANDS=false
+LOCAL_SHORT_COMMANDS=false
+-n
+jvmArgs : 
+

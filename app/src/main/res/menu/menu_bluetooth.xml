@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    >
+
+
+    <item
+        android:id="@+id/menu_bluetooth"
+
+        android:title="@string/menu_bluetooth" />
+    <item
+        android:id="@+id/menu_network"
+        android:title="打开网络连接" />
+    <item android:id="@+id/set_num"
+        android:title="设置点数"/>
+
+    <item
+        android:id="@+id/menu_discoverable"
+        android:title="设置蓝牙可见性" />
+    <item
+        android:id="@+id/fifty_transmition"
+        android:title="50HZ开始指令"/>
+    <item
+        android:id="@+id/sixty_transmition"
+        android:title="60HZ开始指令"/>
+    <item
+        android:id="@+id/stop_transmition"
+        android:title="停止传输"/>
+    <item
+        android:id="@+id/flush"
+        android:title="刷新"/>
+    <item
+        android:id="@+id/menu_connect"
+        android:title="连接socket服务器" />
+
+    <item
+        android:id="@+id/menu_advanced"
+        android:title="@string/menu_advances" />
+
+    <item
+        android:id="@+id/menu_exit"
+        android:title="@string/menu_exit" />
+
+
+</menu>
