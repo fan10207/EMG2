@@ -83,8 +83,8 @@ public class ChartView extends SurfaceView {
     }
 
     private void initChartView() {
-        mPoints = new float[224];
-        bufferPoints = new float[224];
+        mPoints = new float[224*4];
+        bufferPoints = new float[224*4];
         comPoints = new float[POINT_NUM];
         last = new float[2];
         mForePaint.setStrokeWidth(2f);
@@ -137,7 +137,7 @@ public class ChartView extends SurfaceView {
             return;
         Log.e(TAG, "updateFloats: count"+count );
 
-        xLength = (getWidth() * 56) / (POINT_NUM - 1) + 1;
+        xLength = (getWidth() * 224) / (POINT_NUM - 1) + 1;
         int frameNum=floats.length*4;
         if ((count + floats.length) > POINT_NUM) {
             comPoints = new float[POINT_NUM];
@@ -156,17 +156,17 @@ public class ChartView extends SurfaceView {
         }
         //处理断点的情况
         if (cnt == 1) {
-            for (int i=0;i<220;i++) {
+            for (int i=0;i<892;i++) {
                 bufferPoints[i] = mPoints[i + 4];
             }
-            bufferPoints[220] = last[0];
-            bufferPoints[221] = last[1];
+            bufferPoints[892] = last[0];
+            bufferPoints[893] = last[1];
 
-            bufferPoints[222] = (getWidth() * (count) / (POINT_NUM - 1));
-            bufferPoints[223]= getHeight() / 2 * envelopeAmp
+            bufferPoints[894] = (getWidth() * (count) / (POINT_NUM - 1));
+            bufferPoints[895]= getHeight() / 2 * envelopeAmp
                     - (floats[0] / amplitude * (getHeight() / 2)) * envelopeAmp;
         } else {
-            for (int i=0;i<112;i++) {
+            for (int i=0;i<112*4;i++) {
                 bufferPoints[2*i+1]=(getHeight()+1)/2;
                 bufferPoints[2*i] = 0;
             }
@@ -220,7 +220,7 @@ public class ChartView extends SurfaceView {
         stopUpdate = false;
         drawBack(sfh);
         comPoints = new float[POINT_NUM];
-        mPoints = new float[224];
+        mPoints = new float[224*4];
         count = 0;
 
     }

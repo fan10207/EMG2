@@ -54,7 +54,7 @@ public class ChartDemoFragment extends AppFragment implements View.OnClickListen
     //存通道数据
 
 
-    private int frameNum = 288;
+    private int frameNum = 72;
     private float maxData = 0f;
     private float mData = 0f;
     private float maxData1 = 0f;
@@ -235,17 +235,20 @@ public class ChartDemoFragment extends AppFragment implements View.OnClickListen
             {
                 Log.e(TAG, "aaa start" );
 
-                float[] readBufOne = new float[msg.arg1 / constb];
-                float[] readBufTwo = new float[msg.arg1 / constb];
-                float[] readBufThree = new float[msg.arg1 / constb];
-                float[] readBufFour = new float[msg.arg1 / constb];
+
+
+               // float[] readBufTwo = new float[msg.arg1 / constb];
+                //float[] readBufThree = new float[msg.arg1 / constb];
+                //float[] readBufFour = new float[msg.arg1 / constb];
 
                 //根据蓝牙传过来的数据进行处理
                 switch (msg.what) {
                     case MESSAGE_READ:
+                        float[] readBufOne = new float[msg.arg1];
                         float[] readBuf = (float[]) msg.obj;
                         int count = msg.arg1;
-                        for (int i = 0; i < count; i++) {
+                        Log.e(TAG, "arg1=..."+msg.arg1 );
+                       /* for (int i = 0; i < count; i++) {
                             readBuf[i] = readBuf[i];
                             try {
                                 writerOne.append(readBuf[i] + "" + "\n");
@@ -274,7 +277,21 @@ public class ChartDemoFragment extends AppFragment implements View.OnClickListen
                                 }
 
                             }
+                        }*/
+                        for (int i = 0; i < count; i++) {
+                            readBuf[i] = readBuf[i];
+                            try {
+                                writerOne.append(readBuf[i] + "" + "\n");
+                            } catch (IOException e) {
+                                e.printStackTrace();
+                            }
+
+                            readBufOne[i] = readBuf[i]; //出现 数组越界？
+                            if (Math.abs(readBuf[i]) > mData) {
+                                mData = Math.abs(readBuf[i]);
+                            }
                         }
+
                             if (frameNum > 0) {
                                 maxData = mData;
                                 maxData1 = mData1;
@@ -289,9 +306,9 @@ public class ChartDemoFragment extends AppFragment implements View.OnClickListen
                             }
                         Log.e(TAG, "aaa start" );
                         mDataOneChart.updateFloats(readBufOne);
-                        mDataTwoChart.updateFloats(readBufTwo);
-                        mDataThreeChart.updateFloats(readBufThree);
-                        mDataFourChart.updateFloats(readBufFour);
+                        //mDataTwoChart.updateFloats(readBufTwo);
+                        //mDataThreeChart.updateFloats(readBufThree);
+                        //mDataFourChart.updateFloats(readBufFour);
                         break;
 
                     case MESSAGE_STATE_CHANGE:
@@ -404,7 +421,7 @@ public class ChartDemoFragment extends AppFragment implements View.OnClickListen
         mData1 = 0f;
         mData2 = 0f;
         mData3 = 0;
-        frameNum = 288;
+        frameNum =72;
     }
 
 }
